@@ -1,7 +1,7 @@
 #include "DigiKeyboard.h"
 
 // This script is made for MacOs.
-// It just open Run dialog, and type the youtube link video.
+// It just open spotlight,then saffari and type the youtube link video.
 
 void setup() {
   
@@ -20,6 +20,5 @@ void loop() {
   DigiKeyboard.print("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   for(;;){ /*empty*/ }
-  
   
 }
