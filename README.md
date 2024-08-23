@@ -20,7 +20,7 @@ How to Use
 Clone this repository:
 bash
 Copy code
-git clone https://github.com/yourusername/attiny85-rubberducky-prank.git
+git clone https://github.com/l-pontes/MyATtiny85.git
 cd attiny85-rubberducky-prank
 Choose the script version according to the target operating system (Mac OS or Windows).
 Compile and upload the script to your ATtiny85 using your preferred programming tool.
