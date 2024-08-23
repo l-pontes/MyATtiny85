@@ -1,0 +1,25 @@
+#include "DigiKeyboard.h"
+
+// This script is made for MacOs.
+// It just open Run dialog, and type the youtube link video.
+
+void setup() {
+  
+
+}
+
+void loop() {
+  
+  DigiKeyboard.delay(600);
+  DigiKeyboard.sendKeyStroke(0);
+  DigiKeyboard.sendKeyStroke(KEY_SPACE, MOD_GUI_LEFT);
+  DigiKeyboard.delay(600);
+  DigiKeyboard.print("safari");
+  DigiKeyBoard.sendKeyStroke(ENTER);
+  DigiKeyboard.sendKeyStroke(MOD_GUI_LEFT , KEY_T);
+  DigiKeyboard.print("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  for(;;){ /*empty*/ }
+  
+  
+}
